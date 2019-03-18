@@ -1,5 +1,5 @@
 {
-  "name": "reusable-xstate-timer",
+  "name": "xstate-timer",
   "version": "1.0.0",
   "description": "A XState statechart Timer implementation. Meant to be reusable.\nAll input to the timer is given in the initial context `config` property. \nIt handles stopclock and timer mode, depending on config.duration is given or not. Features start/stop/pause/resume/lap-times, as well as options to auto-start the timer on creation and whether or not to auto-finalize  on completion.\nThe React component UI is just for testing. Using just simple styling.\nWritten in Typescript.",
   "keywords": ["statecharts", "xstate", "react", "timer"],
