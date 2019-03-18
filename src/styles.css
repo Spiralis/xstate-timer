@@ -1,0 +1,44 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
+#root {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+button {
+  margin: 0 10px;
+  padding: 8px;
+}
+
+#root {
+  display: grid;
+}
+
+.timer {
+  width: 100%;
+}
+
+.timer .controls {
+  min-height: 3em;
+}
+
+.timer .controls > button {
+  width: 10em;
+}
+
+.timer > table {
+  width: 100%;
+}
+.timer > table th,
+.timer > table td {
+  text-align: center;
+  width: 100vw;
+}
+
+.timer > .state {
+  text-align: center;
+}
